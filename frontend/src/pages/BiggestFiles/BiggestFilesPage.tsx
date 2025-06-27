@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaArrowLeft } from "react-icons/fa";
 
@@ -24,8 +24,6 @@ const mockFiles = Array.from({ length: 20 }, (_, i) => {
 });
 
 type OrderBy = "name" | "size" | "date";
-
-type FileType = typeof mockFiles[0];
 
 export default function BiggestFilesPage() {
   const [selected, setSelected] = useState<number[]>([]);

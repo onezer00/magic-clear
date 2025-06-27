@@ -1,4 +1,3 @@
-import React from "react";
 import Home from "./pages/Home";
 import BiggestFilesPage from "./pages/BiggestFiles/BiggestFilesPage";
 import TerminalGeekPage from "./pages/TerminalGeek/TerminalGeekPage";

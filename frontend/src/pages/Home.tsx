@@ -1,7 +1,7 @@
-import React, { useEffect } from "react";
 import { FaHdd, FaFolderOpen, FaTerminal } from "react-icons/fa";
 import { useDiskStore } from "../store/diskStore";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 import './Home.css'
 
